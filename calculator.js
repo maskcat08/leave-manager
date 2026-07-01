@@ -1,1 +1,0 @@
-function requiredAttendance(workdays,rate=0.6){return Math.ceil(workdays*rate);}
