@@ -1,1 +1,5 @@
-/* GuardLeave */
+body{font-family:-apple-system,sans-serif;background:#f2f2f7;margin:0}
+header{padding:20px}.cards{display:grid;grid-template-columns:1fr 1fr;gap:12px;padding:16px}
+.card{background:#fff;border-radius:14px;padding:16px}
+.tabbar{position:fixed;bottom:0;left:0;right:0;display:flex;background:#fff}
+.tabbar button{flex:1;padding:14px;border:none;background:#fff}
