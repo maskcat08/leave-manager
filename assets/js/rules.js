@@ -1,0 +1,1 @@
+const Rules={attendanceRate:0.6,periodStart:21,requiredAttendance(w){return Math.ceil(w*this.attendanceRate);}};

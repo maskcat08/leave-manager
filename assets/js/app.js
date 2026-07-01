@@ -1,2 +1,1 @@
-document.getElementById('workdays').textContent='20';
-document.getElementById('required').textContent=requiredAttendance(20);
+const p=currentPeriod();const w=workdaysBetween(p.start,p.end);period.textContent=`${p.start.toLocaleDateString()} ~ ${p.end.toLocaleDateString()}`;workdays.textContent=w;required.textContent=Rules.requiredAttendance(w);

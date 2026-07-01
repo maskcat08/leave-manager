@@ -1,0 +1,1 @@
+function currentPeriod(d=new Date()){const y=d.getFullYear(),m=d.getMonth();return d.getDate()>=21?{start:new Date(y,m,21),end:new Date(y,m+1,20)}:{start:new Date(y,m-1,21),end:new Date(y,m,20)};} function workdaysBetween(s,e){let c=0,d=new Date(s);while(d<=e){const w=d.getDay();if(w!=0&&w!=6)c++;d.setDate(d.getDate()+1);}return c;}

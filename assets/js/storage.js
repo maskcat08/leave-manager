@@ -1,0 +1,1 @@
+const Storage={load(){return JSON.parse(localStorage.getItem('guardleave')||'{}')},save(d){localStorage.setItem('guardleave',JSON.stringify(d));}};
